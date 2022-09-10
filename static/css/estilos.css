@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: #f0f0f0;
+}
+main {
+  padding: 1em;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  align-self: flex-end;
+}
+
+.acces {
+  position:fixed;
+  top: 54%;
+  right: 20px;
+  width: 50px;
+}
